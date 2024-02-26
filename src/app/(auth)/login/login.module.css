@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper{
+    width: 500px;
+    background-color: var(--bgSoft);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+  }
+
+  .github{
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .github:hover{
+    background-color: rgba(245, 245, 245, 0.692);
+    transition: ease-in-out 0.2s;
+    
+  }
+
+  

@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    gap: 100px;
+    height: calc(100vh - 200px);
+}
+
+.imgContainer{
+    flex:1;
+    position: relative; 
+    height: calc(100vh - 200px);
+}
+
+.textContainer{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title{
+    font-size: 64px;
+}
+
+.detail{
+    display: flex;
+    gap: 20px;
+}
+
+.img{
+    object-fit: cover;
+    
+}
+
+
+
+.detailText{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.detailTitle{
+    color: gray;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .imgContainer{
+        display: none;
+    }
+}
